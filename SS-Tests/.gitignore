@@ -1,0 +1,12 @@
+venv/
+.venv/
+env/
+
+.vscode/
+
+error_debug.png
+
+requirements.txt
+
+__pycache__/
+*.pyc

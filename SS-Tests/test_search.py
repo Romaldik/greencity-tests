@@ -17,7 +17,6 @@ if __name__ == "__main__":
     search_icon_xpath = "//div[contains(@class, 'container-img')]"
     search_icon = driver.find_element(By.XPATH, search_icon_xpath)
     search_icon.click()
-    # assert search_icon.is_displayed(), "Search icon is not displayed"
 
     sleep(2)
     
