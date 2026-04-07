@@ -1,10 +1,14 @@
 ### TC-01: Перевірка успішного створення нового користувача
-**Title:** Реєстрація нового користувача
-**Priority:** High
-**Preconditions:** 
-    1. Користувач реєструється у системі
-    2. Користувач знаходиться на сторінці https://www.greencity.cx.ua/#/greenCity/events
 
+**Title:** Реєстрація нового користувача
+
+**Priority:** High
+
+**Preconditions:** 
+
+    1. Користувач реєструється у системі
+
+    2. Користувач знаходиться на сторінці https://www.greencity.cx.ua/#/greenCity/events
 
 
 Step | Action | Data | Expected Result 
@@ -19,7 +23,8 @@ Step | Action | Data | Expected Result
 
 **Priority:** Medium
 
-**Preconditions:** 
+**Preconditions:**
+
     1. Користувач знаходиться на сторінці https://www.greencity.cx.ua/#/greenCity/events
 
     2. У списку доступні події з різними категоріями
@@ -37,6 +42,7 @@ Step | Action | Data | Expected Result
 **Priority:** Medium
 
 **Preconditions:**
+
     1. Користувач знаходиться на сторінці https://www.greencity.cx.ua/#/greenCity/events
 
     2. В системі існує подія з назвою "My super cool event".
