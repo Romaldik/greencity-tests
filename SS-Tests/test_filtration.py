@@ -14,7 +14,7 @@ if __name__ == "__main__":
     driver.maximize_window()
     driver.get(BASE_URL)
     print(driver.title)
-    wait = WebDriverWait(driver, 10)
+    sleep(5)
     
     filter_viewbox_xpath = "//div[@class='mat-mdc-select-arrow ng-tns-c3393473648-0']"
     filter_viewbox = driver.find_element(By.XPATH, filter_viewbox_xpath)
@@ -23,7 +23,7 @@ if __name__ == "__main__":
     
     filter_viewbox.click()
     
-    wait = WebDriverWait(driver, 10)
+    sleep(2)
     
     category_filter_xpath = "//div[@role='listbox']"
     category_filter = driver.find_element(By.XPATH, category_filter_xpath)
@@ -61,7 +61,7 @@ if __name__ == "__main__":
     
     #apply_filter_button.click()
     
-    wait = WebDriverWait(driver, 10)
+    sleep(5)
     
     
     driver.quit()
