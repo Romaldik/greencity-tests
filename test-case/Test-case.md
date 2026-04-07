@@ -15,10 +15,13 @@ Step | Action | Data | Expected Result
 |   4  |Спробувати увійти з новими даними|Email та Password з кроку|Користувач не авторізований, видає помилку про невірний email або password|
 
 ### TC-02: Фільтрація події за тегами
-**Title:** Перевірка коректності роботи фільтра за категоріями (тегами) 
+**Title:** Перевірка коректності роботи фільтра за категоріями (тегами)
+
 **Priority:** Medium
+
 **Preconditions:** 
     1. Користувач знаходиться на сторінці https://www.greencity.cx.ua/#/greenCity/events
+
     2. У списку доступні події з різними категоріями
 Step | Action | Data | Expected Result 
 :----|:---------------:|:-------------:|---------------:
@@ -30,9 +33,12 @@ Step | Action | Data | Expected Result
 
 ### TC-03: Пошук події за назвою
 **Title** Перевірка роботи пошукового рядка для знаходження конкретної події.
+
 **Priority:** Medium
+
 **Preconditions:**
     1. Користувач знаходиться на сторінці https://www.greencity.cx.ua/#/greenCity/events
+
     2. В системі існує подія з назвою "My super cool event".
 
 Step | Action | Data | Expected Result 
