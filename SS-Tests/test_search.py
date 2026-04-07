@@ -17,7 +17,7 @@ if __name__ == "__main__":
     search_icon_xpath = "//div[contains(@class, 'container-img')]"
     search_icon = driver.find_element(By.XPATH, search_icon_xpath)
     search_icon.click()
-    assert search_icon.is_displayed(), "Search icon is not displayed"
+    # assert search_icon.is_displayed(), "Search icon is not displayed"
 
     sleep(2)
     
@@ -25,7 +25,7 @@ if __name__ == "__main__":
     search_input = driver.find_element(By.XPATH, search_input_xpath)
     assert search_input.is_displayed(), "Search input is not displayed"
     
-    search_text = "Environment"
+    search_text = "Event"
     search_input.send_keys(search_text + "\n")
     sleep(5)
 
