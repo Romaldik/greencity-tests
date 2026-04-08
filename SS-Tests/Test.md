@@ -150,7 +150,7 @@ greencity-tests/
 │   ├── test_filtration.py # ТС-02: Тест фільтрації
 │   ├── test_search.py     # ТС-03: Тест пошуку
 │   ├── test_sign_up.py    # ТС-01: Тест реєстрації
-│   └── Test.md            # Чорновий файл опису
+│   └── Test.md            
 ├── test-case/             # Директорія документації
 │   └── Test-case.md       # Детальний опис тест-кейсів (основний)
 └── README.md              # Головна сторінка проєкту на GitHub
